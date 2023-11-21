@@ -23,6 +23,19 @@ while category_input == "Yes":
             total_budget = initial_budget_3 + total_budget
 print("You have budgeted $" + str(total_budget) + " to spend.")
 
+#Compiles a guest list and determines the cost per person of the Thanksgiving dinner.
+number=int(input("Enter the number of guests you will have for Thanksgiving: "))
+number_stop = number + 1
+full_name = " "
+space = ", "
+for i in range(1,number_stop):
+    name=input("Enter name " + str(i) + ": ")
+    full_name = full_name + name + space
+print("Guest list: " + full_name)
+cost_per_person = total_budget / number
+cost_per_person_round = round(cost_per_person,2)
+print("You can spend about $" + str(cost_per_person_round) + " per person.")
+
 #Changes the amount in the budget available after the user inputs an expense.
 spending=input("Do you need to input expenses? (Yes/No): ")
 while spending == "Yes":
@@ -52,7 +65,8 @@ while spending == "Yes":
         category_expense=input("Enter category for expense: ")
     spending=input("Do you need to input expenses? (Yes/No): ")
 
-#
+
+
 
 
 
