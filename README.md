@@ -16,6 +16,9 @@ Enter "Yes" or "No". To add at least one category you will need to say "Yes" the
 Enter a category of your choice, for example food, and how much you want to spent (at most).
 #### Step 3: 
 Continue adding categories and money amounts until you have three. 
+
+#### Step 4: 
+
 #### Step 4:
 ![image](https://github.com/abidavidson/Thanksgiving-Budget/assets/146354813/43b7b691-40e6-4515-a8ba-c110a4a9759c)
 
