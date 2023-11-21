@@ -34,7 +34,7 @@ for i in range(1,number_stop):
 print("Guest list: " + full_name)
 cost_per_person = total_budget / number
 cost_per_person_round = round(cost_per_person,2)
-print("You can spend about $" + str(cost_per_person_round) + " per person.")
+print("You are spending $" + str(cost_per_person_round) + " per person.")
 
 #Changes the amount in the budget available after the user inputs an expense.
 spending=input("Do you need to input expenses? (Yes/No): ")
