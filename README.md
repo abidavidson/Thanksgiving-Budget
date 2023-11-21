@@ -1,4 +1,4 @@
-# Thanksgiving Budget Planner
+# Thanksgiving Budget Planner 🍂🍽🦃
 
 Created by Abi Davidson 
 
